@@ -1,0 +1,99 @@
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  background-color: #00D053;
+  padding: 8px 0;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 200px;
+  border: 1px solid transparent;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.button-reverse {
+  color: #00D053;
+  background-color: #ffffff;
+  border: 1px solid #00D053;
+}
+
+.button-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.button:hover {
+  color: #00D053;
+  background-color: #ffffff;
+  border: 1px solid #00D053;
+}
+
+.button-reverse:hover {
+  background-color: #00D053;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
+.burger-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #00D053;
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.button-reviews {
+	font-size: 13px;
+	line-height: 20px;
+	color: #0F2D47;
+}
+
+.button-reviews:hover {
+	color: #FF0032;
+}
+
+@media screen and (min-width: 480px) {
+  .burger-button {
+    width: 58px;
+    height: 58px;
+    padding: 10px;
+  }
+  
+  .button-wrap {
+    margin-top: 0;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.section-popular .button-wrap {
+		margin-top: 35px;
+	}
+	
+	.section-daily .button-wrap {
+		margin-top: 35px;
+	}
+}

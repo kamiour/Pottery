@@ -1,0 +1,14 @@
+.list-plan {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.list-item::before {
+  content: "-";
+  margin-right: 5px;
+}
