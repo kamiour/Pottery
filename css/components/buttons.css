@@ -41,6 +41,10 @@
   margin-top: 10px;
 }
 
+.footer .button-wrap {
+  width: 100%;
+}
+
 .button:hover {
   color: #00D053;
   background-color: #ffffff;

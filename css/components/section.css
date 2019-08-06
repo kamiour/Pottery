@@ -158,6 +158,11 @@
   z-index: 1;
 }
 
+.section-reviews .avatar {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
 .pricing {
   font-size: 25px;
   line-height: 1.4;
