@@ -134,10 +134,10 @@
 }
 
 .header-profile-button {
-  width: 12px;
+  width: 18px;
   margin: 0;
-  padding: 5px 0;
-  margin-left: 5px
+  padding: 3px;
+  margin-top: 3px;
 }
 
 .header-search-button:hover {
@@ -184,7 +184,7 @@
 .logo-title {
 	color: #00D053;
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .footer .logo-title {
