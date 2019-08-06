@@ -4,6 +4,12 @@
   object-fit: contain;
 }
 
+.swiper-slide {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto;
+}
+
 .swiper-title {
   text-align: center;
 }

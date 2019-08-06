@@ -15,7 +15,7 @@ html {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 15px;
 }
 
 body {  
@@ -59,4 +59,11 @@ ul > li > ul,
 ol > li > ul,
 ol > li > ol {
   margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+	
 }
