@@ -158,6 +158,18 @@
   z-index: 1;
 }
 
+.pricing {
+  font-size: 25px;
+  line-height: 1.4;
+  color: black;
+  margin-left: 3px;
+}
+
+.dollar-sign {
+  font-size: 18px;
+  color: black;
+}
+
 .section-daily .section-footer .button-wrap {
   position: absolute;
   left: 50%;

@@ -4,8 +4,14 @@
   text-align: center;
 }
 
+.list-plan li {
+  margin-bottom: 8px;
+}
+
 .list-item {
   list-style-type: none;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 .list-item::before {

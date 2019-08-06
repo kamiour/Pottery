@@ -60,7 +60,7 @@
 }
 
 .card-plan {
-  padding: 46px 38px;
+  padding: 20px 18px;
   box-shadow: 0px 4px 28px rgba(6, 6, 90, 0.06);
   border-radius: 5px;
 }
@@ -84,7 +84,15 @@
 .card-title {
   font-size: 20px;
 	line-height: 24px;
-	color: #373F55;
+  color: #373F55;
+  margin-bottom: 10px;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 10px;
 }
 
 .card-description {
@@ -283,4 +291,10 @@
 		font-size: 13px;
 		line-height: 16px;
 	}
+}
+
+@media screen and (min-width: 960px) {
+  .card-plan {
+    padding: 46px 38px;
+  }
 }
