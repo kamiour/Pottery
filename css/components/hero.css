@@ -96,19 +96,26 @@
 
 @media screen and (min-width: 960px) {
 	.hero {
-		padding: 120px 0;
-	}
+		padding: 120px 100px;
+  }
+  
+  .hero-layout {
+    margin: 0 -50px;
+  }
+
+  .hero-layout > * {
+    padding: 0 50px;
+  }
 	
 	.hero-title {
-		font-size: 90px;
-		line-height: 110px;
-		margin-bottom: 25px;
-	}
+		font-size: 60px;
+		line-height: 68px;
+		margin-bottom: 40px;
+  }
 
 	.hero-description {
-		font-size: 16px;
-		line-height: 22px;
-		max-width: 645px;
+		font-size: 18px;
+		line-height: 26px;
 		margin-bottom: 45px;
 	}
 }
