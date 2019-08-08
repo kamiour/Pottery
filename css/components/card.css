@@ -36,10 +36,21 @@
   border-radius: 50px;
   background-color: #00D053;
   margin: 0 auto;
+  transition-duration: 0.8s;
+}
+
+.card-foreground:hover {
+  height: 72px;
+  width: 72px;
 }
 
 .search-icon {
   width: 23px;
+  transition-duration: 0.5s;
+}
+
+.card-foreground:hover .search-icon {
+  width: 26px;
 }
 
 .card-overlay {

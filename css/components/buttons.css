@@ -98,11 +98,11 @@
 
 @media screen and (min-width: 640px) {
 	.button {
-    width: 280px;
+    width: 250px;
     font-size: 15px;
   }
 
-  .button-wrap {
+  .hero .hero-left .button-wrap {
     width: 100%;
     justify-content: left;
   }

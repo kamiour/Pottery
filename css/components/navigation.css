@@ -67,7 +67,7 @@
 }
 
 .nav-item-mob:hover{
-  background-color: #FF0032;
+  background-color: #00D053;
   color: white;
   text-decoration: none;
 }
@@ -85,10 +85,6 @@ ul li{
   display: -ms-flexbox;
   display: flex;
   margin: 0;
-}
-
-.bg-red {
-	background-color: #FF0032;
 }
 
 @media screen and (min-width: 640px) {
