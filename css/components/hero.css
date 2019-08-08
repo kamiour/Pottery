@@ -16,6 +16,11 @@
   align-items: center;
 }
 
+.hero-right {
+  display: flex;
+  justify-content: center;
+}
+
 .hero-background {
   position: absolute;
   top: 0;
@@ -86,6 +91,7 @@
     color: #F5F5F5;
     font-size: 14px;
     line-height: 21px;
+    margin-bottom: 30px
 	}
 }
 

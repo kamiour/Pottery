@@ -82,6 +82,7 @@
 .swiper-slide-wrap {
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 
 .story-control-wrap {

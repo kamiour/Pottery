@@ -11,6 +11,10 @@
   margin: 0;
 }
 
+.section-plans .col {
+  margin-bottom: 15px;
+}
+
 .mb-20 {
   margin-bottom: 20px!important;
 }
@@ -194,6 +198,10 @@
     font-size: 28px;
     line-height: 38px;
 	  margin-bottom: 26px;
+  }
+
+  .section-subtitle {
+    margin-bottom: 15px;
   }
   
   .section-description {
