@@ -96,6 +96,18 @@
 	}
 }
 
+@media screen and (min-width: 640px) {
+	.button {
+    width: 280px;
+    font-size: 15px;
+  }
+
+  .button-wrap {
+    width: 100%;
+    justify-content: left;
+  }
+}
+
 @media screen and (min-width: 960px) {
 	.section-popular .button-wrap {
 		margin-top: 35px;

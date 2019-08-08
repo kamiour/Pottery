@@ -37,7 +37,8 @@
   background-size: cover;
   background-position: center;
   height: auto;
-  border-radius: 3px;
+  border-radius: 5px;
+  overflow: hidden;
   position: relative;
 }
 
@@ -54,9 +55,7 @@
 }
 
 .swiper1-top .swiper-slide {
-  border-radius: 5px;
   margin: 0;
-  overflow: hidden;
 }
 
 .swiper1-bottom .swiper-slide-thumb-active .slide-overlay {
@@ -67,6 +66,8 @@
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .resp-iframe {
@@ -143,6 +144,12 @@
     height: 50px;
   }
 
+  .swiper-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
   .story-control-inner {
     width: 12px;
     height: 12px;
@@ -152,5 +159,12 @@
     padding: 58px 38px;
     font-size: 16px;
     line-height: 23px;
+  }
+}
+
+@media screen and (min-width: 960px) {	
+  .swiper1-bottom {
+    height: 120px;
+    padding: 0;
   }
 }

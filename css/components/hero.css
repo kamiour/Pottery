@@ -83,6 +83,7 @@
 	}
 
 	.hero-description {
+    color: #F5F5F5;
     font-size: 14px;
     line-height: 21px;
 	}
@@ -91,20 +92,24 @@
 @media screen and (min-width: 640px) {
 	.hero {
 		padding: 80px 0;
-	}
+  }
+  
+  .hero-textarea {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 960px) {
 	.hero {
-		padding: 120px 100px;
+		padding: 120px 0;
   }
   
   .hero-layout {
-    margin: 0 -50px;
+    margin: 0 -25px;
   }
 
   .hero-layout > * {
-    padding: 0 50px;
+    padding: 0 25px;
   }
 	
 	.hero-title {

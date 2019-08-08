@@ -66,3 +66,13 @@ ol > li > ol {
     padding: 0 30px;
   }
 }
+
+@media screen and (min-width: 960px) {
+	.container {
+    padding: 0 160px;
+  }
+
+  .header .container {
+    padding: 0 30px;
+  }
+}

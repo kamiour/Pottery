@@ -163,10 +163,23 @@
   .hero .form {
     margin: 0;
   }
+
+  .form {
+    padding: 46px 38px;
+  }
 }
 
 @media screen and (min-width: 960px) {
   .select-wrap {
     max-width: 220px;
+  }
+
+  .form-title {
+    font-size: 24px;
+  }
+
+  .form-subtitle {
+    font-size: 14px;
+    margin-top: 10px;
   }
 }
