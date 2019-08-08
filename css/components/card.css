@@ -165,7 +165,7 @@
 	margin-bottom: 25px;
 }
 
-.card-info, .card-rating {
+.card-rating {
   width: 100%;
 }
 
@@ -173,15 +173,6 @@
   padding: 20px 10px 15px 10px;
   background-color: white;
   box-shadow: 0px 4px 28px rgba(6, 6, 90, 0.06);
-}
-
-.section-reviews .card-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .card-review .card-header {
@@ -195,26 +186,6 @@
 .card-media {
   width: 100%;
   margin: 0;
-}
-
-.section-popular .img {
-  max-height: 229px;
-}
-
-.section-daily .img {
-  max-height: 172px;
-}
-
-.card-rating, .card-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .section-reviews .card-rating {
@@ -256,35 +227,7 @@
 	color: #888EA0;
 }
 
-.info-left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.info-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 @media screen and (min-width: 480px) {
-	.section-popular .rating-left img {
-		width: 18px;
-		height: 18px;
-	}
-	
-	.section-daily .rating-left img {
-		width: 18px;
-		height: 18px;
-	}
-	
 	.card-title {
     font-size: 16px;
     line-height: 22px;
@@ -309,10 +252,6 @@
 		font-size: 13px;
 		line-height: 16px;
 	}
-}
-
-@media screen and (min-width: 640px) {
-  
 }
 
 @media screen and (min-width: 960px) {

@@ -19,6 +19,7 @@
   border: 1px solid transparent;
   outline: none;
   text-transform: uppercase;
+  transition-duration: 0.5s;
 }
 
 .hero .form .button {
@@ -74,16 +75,6 @@
   border-radius: 50%;
 }
 
-.button-reviews {
-	font-size: 13px;
-	line-height: 20px;
-	color: #0F2D47;
-}
-
-.button-reviews:hover {
-	color: #FF0032;
-}
-
 @media screen and (min-width: 480px) {
   .burger-button {
     width: 58px;
@@ -105,15 +96,5 @@
   .hero .hero-left .button-wrap {
     width: 100%;
     justify-content: left;
-  }
-}
-
-@media screen and (min-width: 960px) {
-	.section-popular .button-wrap {
-		margin-top: 35px;
-	}
-	
-	.section-daily .button-wrap {
-		margin-top: 35px;
   }
 }
