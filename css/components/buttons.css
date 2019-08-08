@@ -19,7 +19,9 @@
   border: 1px solid transparent;
   outline: none;
   text-transform: uppercase;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .hero .form .button {
@@ -95,6 +97,8 @@
 
   .hero .hero-left .button-wrap {
     width: 100%;
-    justify-content: left;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
   }
 }
