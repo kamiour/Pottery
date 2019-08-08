@@ -185,6 +185,10 @@
           transform: translateX(-50%);
 }
 
+.section-plans {
+  padding-top: 0;
+}
+
 @media screen and (min-width: 480px) {
   .section-title {
     font-size: 28px;
@@ -241,14 +245,18 @@
 @media screen and (min-width: 960px) {
   .section {
     padding: 90px 0;
-	}
+  }
+  
+  .section-plans {
+    padding-top: 0;
+  }
 	
 	.section-layout {
-    margin: 0 -45px;
+    margin: 0 -10px;
   }
 
   .section-layout > * {
-    padding: 0 45px;
+    padding: 0 10px;
   }
 	
 	.section-daily {

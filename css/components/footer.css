@@ -56,3 +56,20 @@
   margin: 0;
   background-color: rgba(52, 60, 74, 0.6);;
 }
+
+@media screen and (min-width: 960px) {
+  .footer {
+    padding: 70px 0;;
+  }
+
+  .footer-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+  }
+
+  .footer-footer {
+    margin-top: 50px;
+  }
+}

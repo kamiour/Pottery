@@ -70,3 +70,23 @@
 	  padding: 0 5px;
 	}
 }
+
+@media screen and (min-width: 960px) {
+	.social {
+	  margin: 0 -10px;
+	}
+
+	.social > * {
+	  padding: 0 10px;
+  }
+  
+  .social-bg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .icon-size-footer {
+    height: 20px;
+    width: auto;
+  }
+}

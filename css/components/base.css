@@ -76,7 +76,15 @@ ol > li > ol {
     padding: 0 30px;
   }
 
+  .section-techniques .container {
+    padding: 0 200px;
+  }
+
   .section-story .container {
     padding: 0 80px;
+  }
+
+  .section-contacts .container {
+    padding: 0 130px;
   }
 }
