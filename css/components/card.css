@@ -216,6 +216,9 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 0 -2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .rating-left > * {
