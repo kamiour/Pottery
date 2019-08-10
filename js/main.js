@@ -16,6 +16,9 @@ $(document).ready(function(){
       prevEl: '.swiper-button-prev',
 	  },
     autoHeight: false,
+    autoplay: {
+      delay: 4000,
+    },
     roundLengths: true,
     slidesPerView: 1,
     spaceBetween: 10,
@@ -41,6 +44,9 @@ $(document).ready(function(){
       prevEl: '.swiper-button-prev',
 	  },
     autoHeight: false,
+    autoplay: {
+      delay: 3500,
+    },
     roundLengths: true,
     slidesPerView: 1,
     spaceBetween: 10,
