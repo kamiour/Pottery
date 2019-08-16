@@ -3,7 +3,7 @@ $(document).ready(function(){
   var swiper1bottom = new Swiper('.swiper1-bottom', {
     spaceBetween: 10,
     slidesPerView: 4,
-    loop: true,
+    loop: false,
     freeMode: true,
     loopedSlides: 5, //looped slides should be the same
     watchSlidesVisibility: true,
@@ -22,7 +22,7 @@ $(document).ready(function(){
     roundLengths: true,
     slidesPerView: 1,
     spaceBetween: 10,
-    loop:true,
+    loop: false,
     loopedSlides: 5, //looped slides should be the same
     thumbs: {
       swiper: swiper1bottom,

@@ -18,6 +18,10 @@
   max-height: 290px;
 }
 
+.fancybox-thumbnail {
+  display: none;
+}
+
 .card-background {
   margin: 0;
   width: 100%;
