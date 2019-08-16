@@ -82,11 +82,6 @@ $(document).ready(function(){
     }
   });
 
-  $('.burger-menu').on('click', function(e){
-		e.preventDefault();
-		$('.nav-mobile ul').toggleClass('is-open')
-  });
-
   $('.profile-menu').on('click', function(e){
 		e.preventDefault();
 		$('.profile-menu ul').toggleClass('is-open')
