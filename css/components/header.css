@@ -92,7 +92,8 @@
   right: 0;
   padding: 8px;
   margin: 0;
-  width: 135px;
+  width: 115px;
+  border-radius: 5px;
 }
 
 .profile-item {
