@@ -6,6 +6,7 @@
     <title>Art Clay</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/components/swiper.min.css">
@@ -25,22 +26,22 @@
           <div class="header-center width-1-3 width-3-5-sm">
             <nav class="header-navigation">
               <div class="nav-wrap">
-                <a href="#" class="nav-item isactive">Techniques</a>
+                <a href="#section-1" class="nav-item">Techniques</a>
               </div>
               <div class="nav-wrap">
-                <a href="#" class="nav-item">About</a>
+                <a href="#section-2" class="nav-item">About</a>
               </div>
               <div class="nav-wrap">
-                <a href="#" class="nav-item">Gallery</a>
+                <a href="#section-3" class="nav-item">Gallery</a>
               </div>
               <div class="nav-wrap">
-                <a href="#" class="nav-item">Plans</a>
+                <a href="#section-4" class="nav-item">Plans</a>
               </div>
               <div class="nav-wrap">
-                <a href="#" class="nav-item">Reviews</a>
+                <a href="#section-5" class="nav-item">Reviews</a>
               </div>
               <div class="nav-wrap">
-                <a href="#" class="nav-item">Contacts</a>
+                <a href="#section-6" class="nav-item">Contacts</a>
               </div>
             </nav>
             <div class="nav-mobile">
@@ -50,12 +51,12 @@
                 </figure>
               </a>  
               <ul class="bg-grey">
-                <li><a href="#" class="nav-item-mob">Techniques</a></li>
-                <li><a href="#" class="nav-item-mob">About</a></li>
-                <li><a href="#" class="nav-item-mob">Gallery</a></li>
-                <li><a href="#" class="nav-item-mob">Plans</a></li>
-                <li><a href="#" class="nav-item-mob">Reviews</a></li>
-                <li><a href="#" class="nav-item-mob">Contacts</a></li>
+                <li><a href="#section-2" class="nav-item-mob">Techniques</a></li>
+                <li><a href="#section-2" class="nav-item-mob">About</a></li>
+                <li><a href="#section-3" class="nav-item-mob">Gallery</a></li>
+                <li><a href="#section-4" class="nav-item-mob">Plans</a></li>
+                <li><a href="#section-5" class="nav-item-mob">Reviews</a></li>
+                <li><a href="#section-6" class="nav-item-mob">Contacts</a></li>
               </ul> 
             </div>
           </div>
@@ -144,7 +145,7 @@
       </section>
 
       
-      <section class="section section-techniques">
+      <section id="section-1" class="section section-techniques">
         <div class="container">
           <header class="section-header">
             <h2 class="section-title">Techniques you will learn</h2>
@@ -215,7 +216,7 @@
         </div>
       </section>
 
-      <section class="section section-story bg-grey">
+      <section id="section-2" class="section section-story bg-grey">
         <div class="container">
           <header class="section-header">
             <h2 class="section-title">Our story</h2>
@@ -332,7 +333,7 @@
         </div>
       </section>
 
-      <section class="section section-gallery">
+      <section id="section-3" class="section section-gallery">
         <header class="section-header">
           <div class="container">
             <h2 class="section-title">Gallery</h2>
@@ -466,7 +467,7 @@
         </main>
       </section>
 
-      <section class="section section-plans">
+      <section id="section-4" class="section section-plans">
         <div class="container">
           <header class="section-header">
             <h2 class="section-title">Plans</h2>
@@ -560,7 +561,7 @@
         </div>
       </section>
 
-      <section class="section section-reviews bg-grey">
+      <section id="section-5" class="section section-reviews bg-grey">
         <div class="container">
           <header class="section-header">
             <h2 class="section-title">Reviews</h2>
@@ -739,7 +740,7 @@
         </div>
       </section>
 
-      <section class="section section-contacts">
+      <section id="section-6" class="section section-contacts">
           <div class="container">
             <header class="section-header">
               <h2 class="section-title">Contacts</h2>
@@ -810,11 +811,10 @@
       <div class="footer-overlay"></div>
     </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/components/swiper.min.js"></script>
+    <script src="js/components/nav-item.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -91,5 +91,5 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('.profile-menu ul').toggleClass('is-open')
   });
-  
+    
 })
